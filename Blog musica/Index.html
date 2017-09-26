@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Blog de musica</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,8 +24,13 @@
  </style>
 </head>
 <body>
-
-<nav class="navbar navbar-inverse" data-spy="affix">
+  <div class="container-fluid" style="background-color:#F44336;color:#fff;height:200px;">
+    <h1>Bootstrap Affix Example</h1>
+    <h3>Fixed (sticky) navbar on scroll</h3>
+    <p>Scroll this page.</p>
+    <p>The navbar is attached to the top of the page after you have scrolled a specified amount of pixels.</p>
+  </div>
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -62,6 +67,7 @@
   <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
   <p>Only when the button is clicked, the navigation bar will be displayed.</p>
 </div>
+
 
 </body>
 </html>
