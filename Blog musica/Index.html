@@ -11,16 +11,32 @@
 
 </head>
 <header>
-  <div class="container" style="height:200px; background-color:#ffffff;">
+  <div class="container" style="background-color:#ffffff;">
     <div class="row">
-      <div class="col-sm-3 col-md-6 col-lg-4">
+      <div class="hidden-xs hidden-sm col-md-6 col-lg-4">
         <img class="logo" src="img\logo.png" alt="logotipo">
       </div>
-      <div class="col-sm-9 col-md-6 col-lg-8" align="right">
-          <a href="https://www.facebook.com" target="_blank"><img src="img/face.jpg"></a>
-          <a href="https://www.instagram.com" target="_blank"><img src="img/insta.jpg"></a>
-          <a href="https://www.whatsapp.com" target="_blank"><img src="img/whats.jpg"></a>
+    </div>
+    <div class="row">
+      <div class="sm-9 hidden-md hidden-lg" align="center">
+        <img class="logo" src="img\logo.png" alt="logotipo">
       </div>
+    </div>
+  </div>
+  <div class="container" style="background-color:#ffffff;">
+    <div class="row">
+        <div class="hidden-xs hidden-sm col-md-6 col-md-offset-6" align="right">
+            <a href="https://www.facebook.com" target="_blank"><img src="img/face.jpg"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="img/insta.jpg"></a>
+            <a href="https://www.whatsapp.com" target="_blank"><img src="img/whats.jpg"></a>
+        </div>
+    </div>
+    <div class="row justify-content-between">
+        <div class="sm-9 hidden-md hidden-lg" align="center">
+            <a href="https://www.facebook.com" target="_blank"><img src="img/face.jpg"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="img/insta.jpg"></a>
+            <a href="https://www.whatsapp.com" target="_blank"><img src="img/whats.jpg"></a>
+        </div>
     </div>
   </div>
     <div class="container" style="background-color:#ff9933;">
@@ -42,73 +58,62 @@
     <div class="row content">
 
       <div class="col-sm-9">
-        <h4><small>RECENT POSTS</small></h4>
         <hr>
-        <h2>I Love Food</h2>
-        <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>
-        <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
-        <p>Food is my passion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <br><br>
-
-        <h4><small>RECENT POSTS</small></h4>
-        <hr>
-        <h2>Officially Blogging</h2>
-        <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2015.</h5>
-        <h5><span class="label label-success">Lorem</span></h5><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <hr>
+        <div class="media">
+          <a class="pull-left" href="#">
+            <img class="media-object img-responsive" width="350"src="img/photo.jpg" alt="Die antwoord">
+          </a>
+          <div class="media-body text-justify">
+            <h2 class="media-heading">¿Quien es Die antwoord?</h2><hr>
+              <p>Die Antwoord ("La respuesta" en afrikáans)1​ es una banda de electro rap-rave formada en Ciudad del Cabo, Sudáfrica, en 2008 y la cual autodefine su estilo como un movimiento que mezcla diversas culturas, el cual se denomina Zef.2​ El grupo está integrado por "Ninja", "Yo-Landi Vi$$er" y DJ Hi-Tek. Entre sus sencillos más exitosos se encuentran "Enter the Ninja", "I Fink U Freeky", "Fatty Boom Boom", "Ugly Boy", entre otros.<br>
+              Die Antwoord lanzó su álbum debut de estudio $0$ (2009), para descarga gratuita y llamaron la atención por su video musical para la canción Enter the Ninja. Después de firmar brevemente con Interscope Records, fundaron su propia discográfica, Zef Records, con la cual lanzaron su segundo y tercer álbum de estudio, Ten$Ion (2012) y Donker Mag (2014), respectivamente.<br>
+              Watkin Tudor Jones, vocalista de Die Antwoord, formó parte de la escena hip-hop sudafricano por muchos años, estando en grupos como The Original Evergreen, MaxNormal.TV y The Constructus Corporation.
+              </p>
+          </div>
+        </div>
 
         <h4>Leave a Comment:</h4>
         <form role="form">
-          <div class="form-group">
-            <textarea class="form-control" rows="3" required></textarea>
-          </div>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <textarea class="form-control" rows="3" placeholder="Comentarios" required></textarea>
+          </div><br>
           <button type="submit" class="btn btn-success">Submit</button>
         </form>
         <br><br>
 
-        <p><span class="badge">2</span> Comments:</p><br>
-
-        <div class="row">
-          <div class="col-sm-2 text-center">
-            <img src="bandmember.jpg" class="img-circle" height="65" width="65" alt="Avatar">
-          </div>
-          <div class="col-sm-10">
-            <h4>Anja <small>Sep 29, 2015, 9:12 PM</small></h4>
-            <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <br>
-          </div>
-          <div class="col-sm-2 text-center">
-            <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
-          </div>
-          <div class="col-sm-10">
-            <h4>John Row <small>Sep 25, 2015, 8:25 PM</small></h4>
-            <p>I am so happy for you man! Finally. I am looking forward to read about your trendy life. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <br>
-            <p><span class="badge">1</span> Comment:</p><br>
-            <div class="row">
-              <div class="col-sm-2 text-center">
-                <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
-              </div>
-              <div class="col-xs-10">
-                <h4>Nested Bro <small>Sep 25, 2015, 8:28 PM</small></h4>
-                <p>Me too! WOW!</p>
-                <br>
-              </div>
-            </div>
+        <hr>
+        <div class="media">
+          <a class="pull-right" href="#">
+            <img class="media-object img-responsive" width="350"src="img/photo2.jpg" alt="Die antwoord">
+          </a>
+          <div class="media-body text-justify">
+            <h2 class="media-heading">¿Donde te lleva Die antwoord?</h2><hr>
+              <p>Una galaxia es un conjunto de estrellas, nubes de gas, planetas, polvo cósmico, materia oscura y energía unidos gravitatoriamente con una estructura más o menos definida. La palabra «galaxia» procede de los griegos, los cuales atribuían el nacimiento de una galaxia a las gotas de leche derramadas en el universo por la diosa Hera mientras alimentaba a su hijo Hercules.1​ La cantidad de estrellas que forman una galaxia es enorme y varía desde las galaxias enanas, con 107, hasta las galaxias gigantes, con 1014 estrellas.[cita requerida] Formando parte de una galaxia existen subestructuras como las nebulosas, los cúmulos estelares y los sistemas estelares múltiples.<br>
+              Históricamente, las galaxias se han clasificado de acuerdo a su forma aparente (morfología visual). Una forma común es la galaxia elíptica que, como lo indica su nombre, tiene el perfil luminoso de una elipse. Las galaxias espirales tienen forma circular pero con estructura de brazos curvos envueltos en polvo. Galaxias inusuales se llaman galaxias irregulares y son, normalmente, el resultado de perturbaciones provocadas por la atracción gravitacional de galaxias vecinas. Estas interacciones entre galaxias vecinas, que pueden provocar la fusión de galaxias, pueden inducir el intenso nacimiento de estrellas. Finalmente, tenemos las galaxias pequeñas, que carecen de una estructura coherente y también se las llama galaxias irregulares.<br></p>
           </div>
         </div>
+
+        <h4>Leave a Comment:</h4>
+        <form role="form">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <textarea class="form-control" rows="3" placeholder="Comentarios" required></textarea>
+          </div><br>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        <br><br>
       </div>
-      <div class="col-sm-3 sidenav">
+
+      <div class="hidden-xs hidden-sm col-md-3 col-lg-3">
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search Blog..">
+          <input type="text" class="form-control" placeholder="Buscar...">
           <span class="input-group-btn">
             <button class="btn btn-default" type="button">
               <span class="glyphicon glyphicon-search"></span>
             </button>
           </span>
         </div>
-        <h4>John's Blog</h4>
         <ul class="nav nav-pills nav-stacked">
           <li class="active"><a href="#section1">Home</a></li>
           <li><a href="#section2">Friends</a></li>
@@ -118,9 +123,5 @@
       </div>
     </div>
   </div>
-
-  <footer class="container-fluid">
-    <p>Footer Text</p>
-  </footer>
 </body>
 </html>
