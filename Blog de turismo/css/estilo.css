@@ -1,0 +1,31 @@
+#perfilimg{
+  border-radius: 10px;
+}
+
+.personal1{
+margin-top: 190px;
+}
+.personal{
+margin-top: 25px;
+}
+
+p{
+  text-align: justify;
+}
+h1{
+  color: white;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000;
+}
+
+
+#galeria img {
+  width: 100%;
+}
+
+#izquierdo{
+   padding: 0px;
+  height: 300px;
+}
+#derecho{
+  height: 250px;
+}

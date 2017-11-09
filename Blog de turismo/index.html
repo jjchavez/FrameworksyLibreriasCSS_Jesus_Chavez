@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html style="background-image: url(img/fondo.jpg);background-attachment: fixed ">
+<html style="background-image: url(img/fondo.png);background-attachment: fixed; background-position: center;">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-png">
+  <link rel="apple-touch-icon" href="img/icon.png" type="image/x-png">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/estilo.css">
 
   <title>Blog de Turismo</title>
 </head>
@@ -29,7 +31,7 @@
 
     <div class="col l11 s12">
       <div class="row">
-          <a href="#" class="brand-logo left perfil" ><img src="img/perfil.jpg" id="perfilimg" alt="perfil" class="rexponsive-img"></a>
+          <a href="#" class="brand-logo left perfil" ><img src="img/logo.png" id="perfilimg" alt="perfil" class="rexponsive-img"></a>
             <ul class="right hide-on-med-and-down">
               <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons left">toc</i>Inicio</a>
               <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons left">navigation</i>Estube en...</a>
@@ -42,21 +44,24 @@
               <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons">grade</i></a>
               <a href="#" class="btn waves-effect waves-light blue"><i class="material-icons">thumb_up</i></a>
             </ul>
+            <h1>Viajando sin miedo.</h1>
       </div>
 
-      <div class="row">
-        <div class="col l4 s12">
-          <img src="img/img1.jpg" class="responsive-img" alt="imagen">
-          <img src="img/img2.jpg" class="responsive-img" alt="imagen">
+      <div class="row" id="galeria">
+        <div class="container-fluid">
+          <div class="col l4 s12">
+            <img src="img/img1.jpg" class="responsive-img" id="izquierdo" alt="imagen">
+            <img src="img/img2.jpg" class="responsive-img" id="izquierdo" alt="imagen">
+          </div>
+          <div class="col l4 s12">
+            <img src="img/img3.jpg" class="responsive-img" alt="imagen">
+          </div>
+          <div class="col l4 s12">
+            <img src="img/img4.jpg" class="responsive-img"  alt="imagen">
+            <img src="img/img5.jpg" class="responsive-img" id="derecho" alt="imagen">
+          </div>
         </div>
-        <div class="col l4 s12">
-          <img src="img/img3.jpg" class="responsive-img" alt="imagen">
-        </div>
-        <div class="col l4 s12">
-          <img src="img/img4.jpg" class="responsive-img" alt="imagen">
-          <img src="img/img5.jpg" class="responsive-img" alt="imagen">
-          <img src="img/img6.jpg" class="responsive-img" alt="imagen">
-        </div>
+
       </div>
     </div>
   </div>
@@ -66,14 +71,14 @@
       <div class="row">
         <div class="card-panel white black-text">
           <div class="col l4 s12">
-            <img src="img/acuario.jpg" alt="acuario">
+            <img src="img/monos.jpg" width="100%" alt="acuario">
           </div>
-          <h4>El Acuario</h3>
+          <h4>Los monos</h3>
             <div class="chip">
-              12 de febrero del 2016 <i class="material-icons">view_agenda</i>
+              15 de Septiembre del 2017 <i class="material-icons">view_agenda</i>
             </div>
             <div class="chip">
-              Orlando,Florida <i class="material-icons">location_on</i>
+              Thailandia <i class="material-icons">location_on</i>
             </div>
               <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
@@ -94,15 +99,16 @@
           <textarea id="texto" class="materialize-textarea"></textarea>
           <label for="texto" class="white-text">Comentario</label>
         </div>
+        <button class="btn waves-effect waves-light blue" type="submit" >Enviar<i class="material-icons right">send</i></button>
       </div>
     </div>
     <div class="col l4 s12">
       <div class="card-panel white black-text">
         <div class="card">
           <img src="img/perfildeautor.jpg" alt="perfil" class="circle responsive-img">
-          <h4>Perfil del autor</h4>
+          <h4 class="center">J J CHAVEZ</h4>
         </div>
-          <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
       </div>
     </div>
   </div>
